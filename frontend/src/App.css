@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+   background: linear-gradient(
+    to bottom right,
+    #FF6868,
+    #FF68DE
+  );
+}
+
+header {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+header img {
+  max-width: 150px;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+h1 {
+  font-family: fantasy;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.link-button {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 15px 20px;
+  background-color: #34db45;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.link-button:hover {
+  background: transparent;
+  border: 2px solid #34db45;
+  box-shadow: 
+    0 0 10px 0 #dc45da inset,
+    0 0 10px 4px #799be6;
+  border-radius: 10px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 40px 0;
+}
+
+.input-field {
+  width: 90%;
+  max-width: 500px;
+  padding: 14px 20px;
+  font-size: 18px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  outline: none;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.input-field:focus {
+  box-shadow: 0 1px 6px rgba(231, 27, 200, 0.6);
+  border-color: rgba(231, 27, 200, 0.6);
+}
+
+.submit-button {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 24px;
+  background-color: #06faf2;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background: transparent;
+  border: 2px solid #34db45;
+  box-shadow: 
+    0 0 10px 0 #dc45da inset,
+    0 0 10px 4px #799be6;
+  border-radius: 10px;
+}
